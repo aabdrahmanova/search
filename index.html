@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Поиск фильмов</title>
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="src/css/style.css">
+            <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        </head>
+        <body>
+            
+            <div class="container">
+                <header class="page-header">
+                    <img src="images/logo—tp.png" alt="logo" class="page-header__logo">
+                </header>
+                 <div class="search"> <!-- search--focused, search--scrolled -->
+                    <div class="search__form">
+                        <div class="wrapper-fixed">
+                            <label for="search-field" class="search__label">
+                                <img src="./images/search.png" alt="search-icon">
+                            </label>
+                            <input type="search" class="search__input" id="search-field" placeholder="Поиск фильмов по жанрам и актерам">
+                            <button class="search__button-clear"></button>
+                        </div>
+                    </div>
+                    <div class="search__tags">
+                    </div>
+                </div>
+                <div class="result">
+
+    <div class="loader-wrapper">
+        <svg id="load" x="0px" y="0px" viewBox="0 0 150 150">
+            <circle id="loading-inner" cx="75" cy="75" r="60"/>
+        </svg>
+    </div>
+                    <h2 class="result__title"></h2> 
+                    <div class="result__cards">                    
+                        <!-- <div class="card card--empty">
+                            <div class="lines">
+                                <div class="line first-line"></div>
+                                <div class="line second-line"></div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                <footer class="page-footer">
+                    <p class="page-footer__text">© 2019 Тинькофф Прокат</p>
+                </footer>
+            </div>
+            
+            <script src="src/js/index.js"></script>
+        </body>
+    </html>

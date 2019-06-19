@@ -1,0 +1,40 @@
+@import 'reset';
+@import 'search';
+@import 'result';
+
+$primary-color: rgb(28,28,28);
+$font-family: Roboto;
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+*:hover {
+    transition: 0.5s;
+}
+
+body {
+    background-color: $primary-color;
+    font-family: $font-family;
+    height: 100%;
+}
+
+.container {
+    width: 1280px;
+    margin: 80px auto 20px;
+}
+
+.page-header__logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.page-footer__text {
+    position: absolute; 
+    bottom: 10px;
+    left: 46%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 12px;
+}

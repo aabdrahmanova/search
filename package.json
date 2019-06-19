@@ -1,0 +1,31 @@
+{
+  "name": "tfs-frontend-html-homework",
+  "version": "1.0.0",
+  "description": "- [Домашнее задание 1. Основы вёрстки.](./01-basics/README.md)\r - [Домашнее задание 2. Вёрстка search-o-matic](./02-search-o-matic-markup/README.md)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp css",
+    "open": "index.html",
+    "start": "npm run build && npm run open",
+    "watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/aaabdra5/tfs-frontend-html-homework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/aaabdra5/tfs-frontend-html-homework/issues"
+  },
+  "homepage": "https://gitlab.com/aaabdra5/tfs-frontend-html-homework#README",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-better-rollup": "4.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "2.6.5",
+    "gulp-watch": "^5.0.1"
+  }
+}
